@@ -1,0 +1,42 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.header div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header-links, .hero-text p  {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+div p {
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero {
+background-color: #1f2937;
+display: flex;
+justify-content: space-between;
+}
+
+h1 {
+ font-size: 48px;
+ color: #f9faf8;
+ font-weight: 900;   
+ margin: 0;
+}

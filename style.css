@@ -17,6 +17,11 @@ body {
     gap: 25px;
 }
 
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
 .header-links, .hero-text p  {
     font-size: 18px;
     color: #e5e7eb;
@@ -27,8 +32,8 @@ div p {
 }
 
 .logo {
-    font-size: 24px;
-    color: #f9faf8;
+    width: 100px;
+    height: auto;
 }
 
 .hero {
@@ -55,6 +60,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
 }
 
 button {
@@ -94,6 +103,16 @@ h2 {
     height: 150px;
     border: 2px solid #3882f6;
     border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .info-image p {

@@ -90,7 +90,6 @@ h2 {
     display: flex;
     justify-content: space-around;
     padding: 10px 300px 100px;
-    align-items: center;
 }
 
 .info-image {

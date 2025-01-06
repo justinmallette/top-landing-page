@@ -34,6 +34,8 @@ div p {
 .logo {
     width: 100px;
     height: auto;
+    background-color: #fff;
+    border-radius: 90px;
 }
 
 .hero {
@@ -56,7 +58,7 @@ h1 {
 }
 
 .hero-image {
-    background-color: #e5e7eb;
+    background-color: #8d8f91;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +66,7 @@ h1 {
     height: auto;
     max-width: 100%;
     border-radius: 15px;
+    padding: 2px;
 }
 
 button {
